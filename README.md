@@ -1,22 +1,36 @@
-# Lab 2 - Landing page
+# Description
 
-Create a web page for your/friends/relatives business (example: car-rent, cookies-shop, crypto-scam)
+A responsive landing page for BetKing - an online casino featuring games, bonuses, and promotions. This website also has several sections like Features, Reviews or FAQs, a responsive design, mobile-only elements and a mascot in the form of a casino roulette.
 
-## Customer requirements
+## Sections Included
 
-- Some form of navigation to sections (links, buttons)
-- Call to action
-- At least 4 sections ([see examples](https://webflow.com/blog/high-converting-landing-page))
-- Pleasant to the eyes
+![Hero Section + Navigation Bar](screenshots/hero.jpg)
+![Features Section](screenshots/features.jpg)
+![CTA Section](screenshots/cta.jpg)
+![Social Proof Section](screenshots/social-proof.jpg)
+![FAQs Section](screenshots/faqs.jpg)
+![Contacts Section](screenshots/contacts.jpg)
 
-## Dev requirements
+## Mobile Responsiveness
 
-- Use vanilla CSS and HTML (no frameworks)
-- Have a decent git history (no one commit)
-- The page should be deployed on a free hosting service (example: GitHub Pages, Vercel, Netlify)
-- Project repo should have a README with a short description of the landing page topic, screenshots, and a link to the live demo
+We also had to implement mobile responsiveness for our website, as well as a mobile-only element. Below are the results:
 
-## Other requirements:
+![Navigation Bar](screenshots/mobile-only.jpg)
+![Navigation Bar](screenshots/mobile-navbar.jpg)
+![Hero Section](screenshots/mobile-hero.jpg)
+![Features Section](screenshots/mobile-features.jpg)
+![CTA Section](screenshots/mobile-cta.jpg)
+![Social Proof Section](screenshots/mobile-social-proof.jpg)
+![FAQs Section](screenshots/mobile-faqs.jpg)
+![Contacts Section](screenshots/mobile-contacts.jpg)
 
-- For potential maximal mark, a WIP version should be submitted during the class
-- Use index.html, reset.css
+## Mascot
+
+A requirement for our app was to implement an animated mascot that is related to our chosen topic and that displays a message upon hovering it. As my website is casino-themed I opted for a roulette that rotates as my mascot, and that displays a CTA message upon hovering it.
+
+![Mascot Default](screenshots/mascot-default.jpg)
+![Mascot Hovered](screenshots/mascot-hovered.jpg)
+
+## Live Demo
+
+[Deployed Github Pages Link] https://renat03.github.io/tum-web-lab2/
