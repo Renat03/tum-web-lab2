@@ -360,3 +360,74 @@ body {
     font-size: 1rem;
     color: #ccc;
 }
+
+.contact {
+    background-color: #111;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: gold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: #ccc;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #ddd;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+.contact-form button {
+    background-color: gold;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e0b800;
+}
