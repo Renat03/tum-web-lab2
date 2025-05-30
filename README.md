@@ -4,31 +4,76 @@ A responsive landing page for BetKing - an online casino featuring games, bonuse
 
 ## Sections Included
 
+`Hero Section + Navigation Bar`
+
 ![Hero Section + Navigation Bar](screenshots/hero.jpg)
+
+`Features Section`
+
 ![Features Section](screenshots/features.jpg)
+
+`CTA Section`
+
 ![CTA Section](screenshots/cta.jpg)
+
+`Social Proof Section`
+
 ![Social Proof Section](screenshots/social-proof.jpg)
+
+`FAQs Section`
+
 ![FAQs Section](screenshots/faqs.jpg)
+
+`Contacts Section`
+
 ![Contacts Section](screenshots/contacts.jpg)
 
 ## Mobile Responsiveness
 
 We also had to implement mobile responsiveness for our website, as well as a mobile-only element. Below are the results:
 
-![Navigation Bar](screenshots/mobile-only.jpg)
+`Mobile Only Feature`
+
+![Mobile Only Feature](screenshots/mobile-only.jpg)
+
+`Navigation Bar`
+
 ![Navigation Bar](screenshots/mobile-navbar.jpg)
+
+`Hero Section`
+
 ![Hero Section](screenshots/mobile-hero.jpg)
+
+`Features Section`
+
 ![Features Section](screenshots/mobile-features.jpg)
+
+`CTA Section`
+
 ![CTA Section](screenshots/mobile-cta.jpg)
+
+`Social Proof Section`
+
 ![Social Proof Section](screenshots/mobile-social-proof.jpg)
+
+`FAQs Section`
+
 ![FAQs Section](screenshots/mobile-faqs.jpg)
+
+`Contacts Section`
+
 ![Contacts Section](screenshots/mobile-contacts.jpg)
 
 ## Mascot
 
 A requirement for our app was to implement an animated mascot that is related to our chosen topic and that displays a message upon hovering it. As my website is casino-themed I opted for a roulette that rotates as my mascot, and that displays a CTA message upon hovering it.
 
+`Mascot Default`
+
 ![Mascot Default](screenshots/mascot-default.jpg)
+
+`Mascot Hovered`
+
 ![Mascot Hovered](screenshots/mascot-hovered.jpg)
 
 ## Live Demo
