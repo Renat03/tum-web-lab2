@@ -324,3 +324,39 @@ body {
     color: #999;
     font-weight: normal;
 }
+
+.faq {
+    background-color: #181818;
+    padding: 60px 20px;
+    color: #fff;
+}
+
+.faq .section-title {
+    color: gold;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.faq .faq-item {
+    background-color: #222;
+    border-left: 4px solid gold;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(255, 215, 0, 0.1);
+}
+
+.faq .faq-item h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: gold;
+}
+
+.faq .faq-item p {
+    font-size: 1rem;
+    color: #ccc;
+}
