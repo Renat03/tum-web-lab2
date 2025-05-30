@@ -483,3 +483,106 @@ body {
         }
     }
 }
+
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar .logo {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .navbar .nav-links li {
+        margin: 10px 0;
+    }
+
+    .navbar .play-now {
+        margin-top: 10px;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    /* Features Section */
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        margin-bottom: 20px;
+    }
+
+    /* CTA Section */
+    #cta .container {
+        padding: 20px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-buttons .btn {
+        width: 80%;
+        margin-bottom: 10px;
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* Testimonials Section */
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial {
+        margin-bottom: 20px;
+    }
+
+    /* FAQ Section */
+    .faq-item {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .faq-question {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .faq-answer {
+        font-size: 0.9rem;
+    }
+
+    /* Contact Section */
+    .contact-form input,
+    .contact-form textarea {
+        width: 90%;
+    }
+}
