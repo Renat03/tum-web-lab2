@@ -255,3 +255,72 @@ body {
     background-color: gold;
     color: black;
 }
+
+.testimonials-section {
+    background-color: #111;
+    color: #f5d067;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.testimonials-title {
+    font-size: 2.5rem;
+    color: #f5d067;
+    margin-bottom: 10px;
+}
+
+.testimonials-subtitle {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testimonial-card {
+    background-color: #1a1a1a;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.15);
+    width: 300px;
+    max-width: 90%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.25);
+}
+
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid #f5d067;
+}
+
+.testimonial-quote {
+    font-style: italic;
+    color: #eee;
+    margin-bottom: 15px;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    color: #f5d067;
+}
+
+.testimonial-role {
+    display: block;
+    font-size: 0.9rem;
+    color: #999;
+    font-weight: normal;
+}
