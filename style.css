@@ -188,3 +188,70 @@ body {
     font-size: 1.5rem;
     margin-bottom: 8px;
 }
+
+.cta-section {
+    background: radial-gradient(circle at top left, #ffcc00 0%, #1a1a1a 50%);
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+  
+.cta-content {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    display: inline-block;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+}
+  
+.cta-content h2 {
+    font-size: 2rem;
+    color: gold;
+    margin-bottom: 20px;
+}
+  
+.cta-content p {
+    font-size: 1.1rem;
+    color: #eee;
+    margin-bottom: 30px;
+}
+  
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+  
+.cta-btn {
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+  
+.cta-btn.primary {
+    background-color: gold;
+    color: #000;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+  
+.cta-btn.primary:hover {
+    background-color: #ffd700;
+}
+  
+.cta-btn.secondary {
+    border: 2px solid gold;
+    color: gold;
+    background-color: transparent;
+}
+  
+.cta-btn.secondary:hover {
+    background-color: gold;
+    color: black;
+}
