@@ -6,6 +6,11 @@
     <title>BetKing - Your Ultimate Online Casino</title>
     <link rel="stylesheet" href="reset.css"/>
     <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer components {
+      }
+</style>
 </head>
 
 <div class="roulette-mascot">
@@ -29,16 +34,19 @@
         </ul>
     </nav>
 
-    <section class="hero-section">
-        <div class="hero-content">
-          <h1>Welcome to BetKing</h1>
-          <p>Experience the thrill of online betting, casino games, and exclusive rewards.</p>
-          <a href="#cta" class="cta-button">Join Now & Win Big</a>
-        </div>
-      </section>           
+    <section class="relative bg-[url('img/casino-bg.jpg')] bg-cover bg-center h-screen flex items-center justify-center">
+      <div class="bg-black/60 p-10 rounded-xl text-center max-w-2xl backdrop-blur-sm shadow-lg">
+        <h1 class="text-4xl md:text-5xl font-bold text-amber-400 mb-4">Welcome to BetKing</h1>
+        <p class="text-xl text-white mb-8">Experience the thrill of online betting, casino games, and exclusive rewards.</p>
+        <a href="#cta" class="bg-amber-400 hover:bg-amber-300 text-black font-bold py-3 px-8 rounded-lg transition-all">
+          Join Now & Win Big
+        </a>
+      </div>
+    </section>
     
     <section id="features">
-        <div class="container">
+          <div class="container">
+            <div class="features gap-[10px]">
             <h2 class="section-title">Why Choose BetKing?</h2>
             <div class="features">
                 <div class="feature">
@@ -63,6 +71,8 @@
               </div>          
             </div>
         </div>
+      </div>      
+      <div class="features gap-[200px]">
     </section>
 
     <section id="cta" class="cta-section">
